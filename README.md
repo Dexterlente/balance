@@ -14,6 +14,14 @@ npm start
 
 This will create an SQLite database file named database.db inside the database folder and run the backend server at port 5000.
 
+Insert Mock Data into SQLite
+To populate the SQLite database with mock data, run the following command:
+at rootfolder
+
+```sh
+node database/dataInsertion.js
+```
+
 
 This repository provides endpoints for the following functionalities:
 
