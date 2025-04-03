@@ -20,8 +20,8 @@ This repository provides endpoints for the following functionalities:
 GET ```http://localhost:5000/balance```
     add params to the endpoint
 
-    ```/balance?user_id={user_id}```
-    
+    /balance?user_id={user_id}
+
     returns
 
     {
