@@ -14,8 +14,8 @@ npm start
 
 This will create an SQLite database file named database.db inside the database folder and run the backend server at port 5000.
 
-Insert Mock Data into SQLite
-To populate the SQLite database with mock data, run the following command:
+Insert Mock Data into SQLite, run the following command:
+
 at rootfolder
 
 ```sh
@@ -86,3 +86,17 @@ GET http://localhost:5000/users
     ]
 
 Retrieves information about users.
+
+
+## For the frontend
+Navigate to the frontend directory:
+
+```cd public/frontend```
+
+Install the dependencies and run the Next.js development server:
+
+```
+npm install
+npm run dev
+```
+Landing page runs at ```http://localhost:3000``` at default
