@@ -57,8 +57,11 @@ POST http://localhost:5000/debit
         "message": "Debit successful!"
     }
 Initiates a debit transaction from the user's account.
+
 GET http://localhost:5000/users
+
     Response: array of users
+
     [
         {
             "id": 1,
@@ -73,6 +76,5 @@ GET http://localhost:5000/users
             "username": "Baz"
         }
     ]
+
 Retrieves information about users.
-Usage
-Please refer to the respective endpoint documentation for details on how to interact with the API.
