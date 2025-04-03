@@ -19,17 +19,20 @@ This repository provides endpoints for the following functionalities:
 
 GET ```http://localhost:5000/balance```
     add params to the endpoint
+
     ```/balance?user_id={user_id}```
+    
     returns
-    ```
+
     {
         "balance": 21000
     }
-    ```
+
 Retrieves the balance information.
 
 
 POST http://localhost:5000/cash-in
+
     Post Payload 
     {
         "user_id": 1,
@@ -43,6 +46,7 @@ POST http://localhost:5000/cash-in
 Allows users to deposit cash into their accounts.
 
 POST http://localhost:5000/debit
+
     Post Payload
     {
         "user_id": 1,
